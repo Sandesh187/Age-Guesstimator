@@ -34,3 +34,23 @@ Install dependencies:
 
 ```bash
 pip install opencv-python numpy
+
+
+
+## ⚠️ Model Files
+
+Due to GitHub file size limits, model weights are not included in this repo.
+
+Download the required models here:
+
+👉 [Download Models](
+https://raw.githubusercontent.com/opencv/opencv/master/samples/dnn/face_detector/deploy.prototxt
+https://github.com/opencv/opencv_3rdparty/raw/dnn_samples_face_detector_20170830/res10_300x300_ssd_iter_140000.caffemodel
+https://raw.githubusercontent.com/GilLevi/AgeGenderDeepLearning/master/models/age_deploy.prototxt
+https://github.com/GilLevi/AgeGenderDeepLearning/raw/master/models/age_net.caffemodel
+)
+
+After downloading, place them inside:
+
+models/
+
